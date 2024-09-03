@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Analysis Result</title>
+</head>
+<body>
+    <h2>Analysis Results</h2>
+    <h3>Volume of Stock Traded</h3>
+    <img src="data:image/png;base64,{{ volume_plot }}" alt="Volume of Stock Traded"><br><br>
+    
+    <h3>Market Capitalisation</h3>
+    <img src="data:image/png;base64,{{ market_cap_plot }}" alt="Market Capitalisation"><br><br>
+    
+    <h3>Moving Averages</h3>
+    <img src="data:image/png;base64,{{ moving_average_plot }}" alt="Moving Averages"><br><br>
+    
+    <h3>Scatter Matrix</h3>
+    <img src="data:image/png;base64,{{ scatter_matrix_plot }}" alt="Scatter Matrix"><br><br>
+    
+    <h3>Volatility</h3>
+    <img src="data:image/png;base64,{{ volatility_plot }}" alt="Volatility"><br><br>
+</body>
+</html>
